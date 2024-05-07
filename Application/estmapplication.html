@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="applicationstyle.css">
+    <script src="applicationsc.js" defer></script>
+
+    <title>Escuela Secundaria Técnica México High School Application Form</title>
+</head>
+<body>
+
+    <header>
+        <img src="estmlogo.png">
+        <h1>Escuela Secundaria Técnica México Application Form</h1>
+        
+    </header>
+        <form action="confirmation.html" method="post">
+        <fieldset>
+            <legend>Personal Information:</legend>
+            <label for="fullName">Full Name:</label><br>
+            <input type="text" id="fullName" name="fullName" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address" required><br><br>
+
+            <label for="district">District:</label><br>
+            <input type="text" id="district" name="district" required><br><br>
+
+            <label for="village">Town/Village:</label><br>
+            <input type="text" id="village" name="village" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Educational Background:</legend>
+            <label for="currentSchool">Name of Current School:</label><br>
+            <input type="text" id="currentSchool" name="currentSchool" required><br><br>
+
+            <label for="graduationYear">Year of Graduation (if applicable):</label><br>
+            <input type="text" id="graduationYear" name="graduationYear"><br><br>
+
+            <label>Have you completed Standard VI?</label><br>
+            <input type="radio" id="yes" name="completedStandardVI" value="yes" required>
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="completedStandardVI" value="no">
+            <label for="no">No</label><br><br>
+
+            <label for="transferReason">If transferring, reason for transfer:</label><br>
+            <textarea id="transferReason" name="transferReason" rows="4" cols="50"></textarea><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Medical Information:</legend>
+            <label for="healthCondition">Health Condition:</label><br>
+            <select id="healthCondition" name="healthCondition" required>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="fair">Fair</option>
+                <option value="poor">Poor</option>
+            </select><br><br>
+
+            <label for="healthReason">If fair or poor, state why:</label><br>
+            <textarea id="healthReason" name="healthReason" rows="4" cols="50"></textarea><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Parent/Guardian Information:</legend>
+            <label for="parentName">Parent/Guardian Name:</label><br>
+            <input type="text" id="parentName" name="parentName" required><br><br>
+
+            <label for="parentPhone">Parent/Guardian Contact Number:</label><br>
+            <input type="tel" id="parentPhone" name="parentPhone" required><br><br>
+
+            <label for="parentEmail">Parent/Guardian Email Address:</label><br>
+            <input type="email" id="parentEmail" name="parentEmail" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>File Submission:</legend>
+            <p>Please submit a copy of the following documents:</p>
+            <label for="applicantSSC">Applicant's Social Security Card:</label><br>
+            <input type="file" id="applicantSSC" name="applicantSSC" accept=".pdf,.jpg,.png" required><br><br>
+
+            <label for="parentSSC">Parent/Guardian's Social Security Card:</label><br>
+            <input type="file" id="parentSSC" name="parentSSC" accept=".pdf,.jpg,.png" required><br><br>
+
+            <label for="birthCertificate">Birth Certificate:</label><br>
+            <input type="file" id="birthCertificate" name="birthCertificate" accept=".pdf,.jpg,.png" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Declaration:</legend>
+            <p>By submitting this form, I certify that the information provided above is true and accurate to the best of my knowledge.</p>
+            <label for="signature">Signature (Type your full name):</label><br>
+            <input type="text" id="signature" name="signature" required><br><br>
+
+            <label for="submissionDate">Date of Submission:</label><br>
+            <input type="date" id="submissionDate" name="submissionDate" required><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <footer>
+        <p>&copy; 2024 Mattu & Associates. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
+```
+

@@ -1,0 +1,59 @@
+/* confirmationstyle.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("IMG_5875.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div {
+    text-align: center;
+}
+
+.msg {
+    margin-top: 200px;
+}
+#thanks,
+#check,
+#link {
+    background-color: rgba(169, 169, 169, 0.75);
+    padding: 20px; /* Added padding for better readability */
+}
+
+#thanks {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#check {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#link {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+footer {
+    background-color: #00be64;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 50%; /* Set maximum width to 50% of its parent container */
+    margin-bottom: 0px; /* Added margin bottom for spacing */
+}

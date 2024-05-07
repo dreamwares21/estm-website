@@ -1,0 +1,31 @@
+body#admitbgpg {
+    background-image: url("admitbg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#admissions{
+    background-color: rgba(169, 169, 169, 0.75);
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#admission-info,
+#application-link{
+    background-color: rgba(204, 204, 204, 0.75);
+    padding: 10px;
+    margin-bottom: auto;
+    margin-right: -5px;    
+}
+
+#application-link {
+    text-align: center; /* Horizontally center the content */
+    margin-top: auto; /* Push the section to the top of its container */
+    margin-bottom: auto; /* Push the section to the bottom of its container */
+    margin-left: 500px;
+    margin-right: 500px;
+}

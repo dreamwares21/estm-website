@@ -1,0 +1,46 @@
+body#acadbgpg {
+    background-image: url("estmbk1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#first,
+#second,
+#third,
+#fourth{
+    background-color: rgba(169, 169, 169, 0.75); /* Grey background with 65% opacity */
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#promo,
+#remedial,
+#consid,
+#repeat,
+#withdrawal{ background-color: rgba(169, 169, 169, 0.75); /* Grey background with 65% opacity */
+    padding: 10px;
+    margin-top: 20px;
+}
+
+table {
+    background-color: rgba(169, 169, 169, 0.75); /* Grey background with 65% opacity */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000; /* Add border for better visibility */
+}
+
+/* Style for table headers, promotion requirements, and class courses headers */
+th, h3 {
+    background-color: rgba(169, 169, 169, 0.75); /* Grey background with 65% opacity */
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Style for section content and lists */
+section {
+    margin-bottom: 30px;}

@@ -1,0 +1,52 @@
+#about {
+    padding: 20px;
+    margin-bottom: auto;
+    margin-right: -5px;    
+}
+
+#mission,
+#vision,
+#school-song,
+#history {
+    background-color: rgba(204, 204, 204, 0.75);
+    padding: 20px;
+    margin-bottom: auto;
+    margin-right: -5px;    
+}
+
+#location {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(204, 204, 204, 0.75);
+}
+
+body#aboutbgpg {
+    background-image: url("estmbk2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#school-song{
+    margin-right:1000px;
+    margin-left: 20px;
+}
+
+#location {
+    margin-right: 1000px;
+    margin-left: 20px;
+}
+
+#abt{
+    background-color: rgba(169, 169, 169, 0.75);
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+iframe,
+video{
+    margin-left: 20px;
+}
