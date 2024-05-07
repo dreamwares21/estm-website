@@ -1,0 +1,72 @@
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted to display images in rows of 4 */
+    gap: 10px; /* Add some spacing between images */
+    justify-items: center; /* Center items horizontally within each grid cell */
+}
+
+.image-gallery img {
+    width: 95%; /* Ensure images take up the full width of their grid cell */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure all images fill their container without distortion */
+    border: 5px solid green; /* Add a 5px green border around each image */
+    margin: 5px; /* Optional: Add some margin around the images */
+}
+
+h2 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+/* styles.css */
+.enlarged-image {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.enlarged-image.active {
+    display: block;
+}
+
+.enlarged-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* 80% opacity black background */
+    z-index: 9998; /* Behind the enlarged image */
+}
+
+.overlay.active {
+    display: block;
+}
+
+body.enlarged {
+    overflow: hidden; /* Disable scrolling */
+}
+
+body {
+    background-image: url("estmbk1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
