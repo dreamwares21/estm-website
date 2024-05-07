@@ -1,0 +1,87 @@
+/* Combine the styles for image containers */
+.image-container {
+    display: flex;
+    justify-content: center; /* Center images horizontally */
+    align-items: center; /* Center images vertically */
+    flex-wrap: wrap; /* Allow images to wrap to next line if necessary */
+    margin: 10px; /* Add spacing around each image container */
+}
+
+/* Update the CSS for the .admin and .teacher classes to use flexbox */
+.admin,
+.teacher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px; /* Add spacing around each image and text */
+    background-color: rgba(255, 255, 255, 0.8); /* Add background color */
+    border: 2px solid green; /* Add green border */
+}
+
+.teacher {
+    border: 5px solid green;
+}
+
+.admin {
+    border: 5px solid red;
+}
+
+/* Update the CSS for the p elements to display as block elements */
+.admin p,
+.teacher p {
+    display: block;
+}
+
+/* Remove the inline-block display property for p elements */
+#admin-name p,
+#teacher-name p {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Adjust margins as needed */
+#administration,
+#teachers {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px 270px; /* Adjust margins for better spacing */
+}
+
+#teachers {
+    margin: 20px 110px; /* Adjust margins for better spacing */
+}
+
+/* Additional styles for images */
+.image-container img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin: 0 0px; /* Add spacing between images */
+}
+
+#admin img {
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+}
+
+.image-wrapper {
+    text-align: center; /* Center text under image */
+    margin: 10px; /* Add spacing around each image */
+}
+
+.image-wrapper p {
+    margin-top: 5px; /* Add space between image and caption */
+}
+
+body {
+    background-image: url(estmbk1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+}
