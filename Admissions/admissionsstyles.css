@@ -1,5 +1,5 @@
 body#admitbgpg {
-    background-image: url("admitbg.JPG");
+    background-image: "admitbg.JPG";
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
