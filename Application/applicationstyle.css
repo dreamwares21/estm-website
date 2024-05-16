@@ -87,3 +87,25 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Additional Radio Button Styling */
+input[type="radio"] {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+label[for="male"],
+label[for="female"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+br {
+    display: none;
+}
+
+form label:first-of-type {
+    display: block;
+    margin-bottom: 5px;
+}
