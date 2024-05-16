@@ -111,9 +111,9 @@ img[alt="School Logo"] {
 }
 
 h2 {
-    display: inline-block; /* Make the background wrap around the text */
-    padding: 10px; /* Adjust padding as needed */
-    margin: 10px 0; /* Adjust margin as needed */
-    border-radius: 5px; /* Optional: Add rounded corners */
+    display: inline-block;
+    padding: 10px; 
+    margin: 10px 0; 
+    border-radius: 5px; 
     text-align: center;
 }
