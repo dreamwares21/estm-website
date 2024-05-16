@@ -11,15 +11,12 @@ body#homepgbg {
 #welcome-paragraph,
 #goal {
     background-color: rgba(204, 204, 204, 0.75);
-    padding: 10px;
     margin-bottom: auto;
     margin-right: -5px;    
 }
 
 #welc {
     text-align: center;
-    margin-left: 400px;
-    margin-right: 400px;
     background-color: rgba(204, 204, 204, 0.75);
     padding: 10px;
 }
